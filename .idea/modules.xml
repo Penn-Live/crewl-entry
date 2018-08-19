@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/crewl-entry.iml" filepath="$PROJECT_DIR$/crewl-entry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/crewl-entry_main.iml" filepath="$PROJECT_DIR$/.idea/modules/crewl-entry_main.iml" group="crewl-entry" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/crewl-entry_test.iml" filepath="$PROJECT_DIR$/.idea/modules/crewl-entry_test.iml" group="crewl-entry" />
+    </modules>
+  </component>
+</project>

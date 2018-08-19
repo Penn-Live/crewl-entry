@@ -1,4 +1,4 @@
-package com.yzyw.penn.reqeust.seeks;
+package com.yzyw.penn.reqeust.seekers;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
