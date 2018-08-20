@@ -2,14 +2,14 @@ package com.yzyw.penn.reqeust.seekers;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
-import com.yzyw.penn.reqeust.AjaxGetBaseSeek;
+import com.yzyw.penn.reqeust.AjaxGetBaseSeeker;
 import org.apache.commons.configuration.ConfigurationException;
 
 import java.util.HashSet;
 import java.util.Set;
 
 //site: "feelunique.com"
-public class FeeluniqueSkuSeeker extends AjaxGetBaseSeek {
+public class FeeluniqueSkuSeeker extends AjaxGetBaseSeeker {
 
 
     public FeeluniqueSkuSeeker(String confiPath) throws ConfigurationException {
