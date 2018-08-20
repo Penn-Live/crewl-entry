@@ -27,7 +27,8 @@ public class FeeluniqueSkuSeeker extends AjaxGetBaseSeeker {
                 JsonElement current = skuArr.get(j);
                 ids.add(current.getAsJsonObject().get("entity_id").toString());
                 //处理里面的
-                JsonArray innerSkuArr =  current.getAsJsonObject().get("inner_hits").getAsJsonObject().getAsJsonArray("skus");
+                JsonArray innerSkuArr =  current.getAsJsonObject().get("inner_hits")
+                        .getAsJsonObject().getAsJsonArray("skus");
                 for (int i1 = 0; i1 < innerSkuArr.size(); i1++) {
                     ids.add(innerSkuArr.get(i1).getAsJsonObject().get("entity_id").toString());
                 }
